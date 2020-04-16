@@ -1,0 +1,25 @@
+
+
+
+[header2] ul {
+  background: purple;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+li {
+  padding: 1rem;
+  list-style:none;
+}
+
+a {
+    text-decoration:none;
+    color:white;
+}
+.active {
+    border-bottom: 1px solid gainsboro;
+}
+

@@ -20,4 +20,20 @@ body {
     padding:3rem;
 }
 
+.layout2 [page] {
+    background:red;
+    color:white;
+    font-size:3rem;
+    width:50%;
+    margin: 0 auto;
+   height: calc(100vh - (56px + 68px) );
+}
+.layout1 [page] {
+    background:gainsboro;
+    // color:white;
+    font-size:1.3rem;
+    width:50%;
+    // margin: 0 auto;
+   height: calc(100vh - (56px + 68px) );
+}
 
