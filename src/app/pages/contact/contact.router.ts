@@ -1,3 +1,4 @@
+import { FormComponent } from './../../components/form/form.component';
 import { ContactComponent } from './contact.component';
 import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
@@ -12,7 +13,8 @@ const routes: Routes = [
 
 @NgModule({
     declarations:[
-        ContactComponent
+        ContactComponent,
+        FormComponent
     ],
     imports: [RouterModule.forChild(routes)],
     exports: [
